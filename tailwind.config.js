@@ -22,7 +22,11 @@ export default {
 			/* FeedBack */
 			danger: "#E25858",
 		},
-		extend: {},
+		extend: {
+			height: {
+				"task-content": "calc(100vh - 300px)",
+			},
+		},
 	},
 	plugins: [],
 };

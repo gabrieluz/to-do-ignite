@@ -1,10 +1,9 @@
 /// <reference types="vite-plugin-svgr/client" />
 
-import { ITask } from "../App";
-
 import CheckCompleted from "../assets/checkCompleted.svg";
 import CheckPending from "../assets/checkPending.svg";
 import Trash from "../assets/trash.svg?react";
+import { ITask } from "../pages/Content";
 
 interface ITaskComponent extends ITask {
 	handleStatus: () => void;
