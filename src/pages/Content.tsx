@@ -20,29 +20,7 @@ function Count({ label }: { label: number | string }) {
 }
 
 export default function Content() {
-	const [tasks, setTasks] = useState<Array<ITask>>([
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-		{ title: "Teste", status: "pending" },
-	]);
+	const [tasks, setTasks] = useState<Array<ITask>>([]);
 	const [newTask, setNewTask] = useState<string>("");
 
 	const createTask = useCallback(() => {
