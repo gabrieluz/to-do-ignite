@@ -1,5 +1,3 @@
-/// <reference types="vite-plugin-svgr/client" />
-
 import CheckCompleted from "../../assets/checkCompleted.svg";
 import CheckPending from "../../assets/checkPending.svg";
 
