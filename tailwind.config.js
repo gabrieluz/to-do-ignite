@@ -21,6 +21,8 @@ export default {
 
 			/* FeedBack */
 			danger: "#E25858",
+
+			"edit-gray": "#525252cc",
 		},
 		extend: {
 			height: {

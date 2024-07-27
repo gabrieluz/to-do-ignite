@@ -11,3 +11,12 @@
 
 	font-family: "Inter", sans-serif;
 }
+
+::-webkit-scrollbar {
+	width: 4px;
+	background-color: #333333;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #4ea8de;
+}
